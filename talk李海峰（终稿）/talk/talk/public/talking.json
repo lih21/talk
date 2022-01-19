@@ -1,0 +1,22 @@
+{
+    "talking":[
+      {  
+        "my":"lisi",
+        "other":"zhangsan",
+        "msg":"我没吃",
+        "dtime":"2"
+    },
+    {  
+        "my":"zhangsan",
+        "other":"lisi",
+        "msg":"吃了没",
+        "dtime":"1"
+    },
+    {  
+        "my":"lisi",
+        "other":"zhangsan",
+        "msg":"你吃了吗",
+        "dtime":"3"
+    }
+]
+}
