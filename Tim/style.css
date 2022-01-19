@@ -1,0 +1,382 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    margin-top: -20px;
+    z-index: 0;
+    background: transparent;
+}
+.imlogo_b{
+    position: absolute;
+    left: 16%;
+    top: 5%;
+
+}
+/*包含以下四种的链接*/
+a {
+    text-decoration: none;
+}
+/*正常的未被访问过的链接*/
+a:link {
+    text-decoration: none;
+}
+/*已经访问过的链接*/
+a:visited {
+    text-decoration: none;
+}
+/*鼠标划过(停留)的链接*/
+a:hover {
+    text-decoration: none;
+}
+/* 正在点击的链接*/
+a:active {
+    text-decoration: none;
+}
+.nav{
+    height: 800px;
+    margin:0;
+    background: url(images/tim_bg_1.jpg);
+}
+.nav ul{
+    margin-left: 23%;
+    font-size: 20px;
+}
+.nav-li{
+    height: 80px;
+    line-height: 80px;
+    list-style: none;
+    float: left;
+    width: 60px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+   
+}
+.nav-li:hover{
+    background-color: #12b7f5;
+}
+.regist{
+    float: left;
+    width: 96px;
+    height: 0;
+    overflow: hidden;
+    padding: 39px 0 0 0;
+    margin: 18px 0 0 0;
+    margin-left: 390px;
+    background: transparent url(images/icons.png) no-repeat 0 -244px;
+}
+.nav-right-li{
+    list-style: none;
+    float: left;
+    font-size: 15px;
+    text-shadow: 1px 1px 3px black;
+    margin-top: 1%;
+    padding-left: 1%;
+}
+.nav-right a{
+    float: left;
+    font-size: 12px;
+    margin-top: 12px;
+    color: black;
+    padding-left: 1%;
+    text-shadow: 1px 1px 3px black;
+}
+.nav-right a:hover{
+    text-decoration:underline;
+}
+.linenumber{
+    position: absolute;
+    left: 1072px;
+    top: 24px;
+
+}
+.tim-logo {
+    background: url(images/logo.png) no-repeat center top;
+    width: 297px;
+    height: 167px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tim-btn{
+    width:328px;
+    height: 72px;
+    background: url(images/btn.png) no-repeat center top;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+}
+.tim-icon{
+    background: url(images/icon.png) no-repeat center top;
+    width: 812px;
+    height: 147px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+}
+.doc-j2{
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 35%;
+    width: 100%;
+    top: 70%;
+}
+.brand{
+    width: 100%;
+    height: 38%;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+}
+.firstbg{
+    background: url(images/fisrtbg.jpg) no-repeat;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center top;
+}
+.banner1{
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    background: white;
+}
+.pic1{
+    position:absolute;
+    top: -38.5%;
+    left: 16%;
+}
+.banner1-right{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    right: 10%;
+}
+.banner1-right h2{
+    font-size: 40px;
+    text-align: right;
+    font-weight: 100;
+}
+.banner1-right p{
+    text-align: right;
+    font-size: 16px;
+    text-shadow: 1px 1px 3px black;
+    opacity: 0.5;
+}
+.banner1-right a{
+    float: right;
+    color: #12b7f5;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px black;
+    opacity: 0.5;
+}
+.qcall_figs{
+    position: absolute;
+    top: 80%;
+    left: 41%;
+}
+.banner1-right ul{
+    position: absolute;
+    top: 100%;
+    font-size: 15px;
+    left: 26%;
+}
+.banner1-right ul li{
+    list-style: none;
+    float: left;
+    padding-left: 35px;
+    text-shadow: 1px 1px 3px black;
+    opacity: 0.5;
+}
+.secondbg{
+    background: url(images/avd.jpg) no-repeat;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.banner2{
+    height: 600px;
+    width: 100%;
+    background:white;
+    margin-top: -20px;
+}
+.banner2-left{
+    position: absolute;
+    left: 24%;
+    width: 400px;
+    height: 400px;
+    margin-top: 61px;
+    
+    
+}
+.banner2-left h2{
+    font-size: 40px;
+    text-align: left;
+    font-weight: 100;
+}
+.banner2-left p{
+    text-align: left;
+    font-size: 16px;
+    text-shadow: 1px 1px 3px black;
+    opacity: 0.5;
+}
+.banner2-left a{
+    float: left;
+    color: #12b7f5;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px black;
+    opacity: 0.5;
+}
+.banner2-left ul{
+    background: transparent url(images/qfile_figs.png) no-repeat 55px 41px;
+    width: 100%;
+    padding-top: 53px;
+    min-height: 77px;
+    margin-left: -23px;
+    margin-top: 53px;
+}
+.banner2-left ul li{
+    list-style: none;
+    margin-top: 64px;
+    margin-left: 20px;
+    float: left;
+    width: 84px;
+    text-shadow: 1px 1px 3px black;
+    opacity: 0.5;
+}
+.banner2-right{
+    position: absolute;
+    left: 54%;
+    margin-top: 123px;
+}
+.thirdbg{
+    background: url(images/blog.jpg) no-repeat;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.banner3{
+    z-index: 0;
+    height: 500px;
+    width: 100%;
+    background: white;
+    margin-top: -200px;
+    overflow: hidden;
+}
+.pic3{
+    position: absolute;
+    left: 18%;
+    height: 500px;
+}
+.banner3-right{
+    margin-top: 32px;
+    position:absolute;
+    left: 60%;
+    text-align: right;
+}
+.banner3-right h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+.banner3-right p{
+    font-size: 16px;
+    text-shadow: 1px 1px 3px black;
+    opacity: 0.5;
+}
+.banner3-right a{
+    float: right;
+    color: #12b7f5;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px black;
+    opacity: 0.5;
+}
+.qblog_figs{
+    margin-top: 31px;
+    width: 81%;
+}
+.banner3-right ul li{
+    list-style: none;
+    margin-left: 23px;
+    float: left;
+    width: 84px;
+    text-shadow: 1px 1px 3px black;
+    opacity: 0.5;
+}
+.foot{
+    width: 100%;
+    height: 348px;
+    padding-top: 34px;
+    background: #2a2a2a;
+    z-index: 1;
+}
+.foot-left{
+    color: #666;
+    font-size: 14px;
+    text-shadow: 1px 1px 3px black;
+    margin-left: 222px;
+    margin-top: 30px;
+}
+.foot-left ul{
+    background: url(images/plats1.png) no-repeat -17px 26px;
+    width: 100%;
+    height: 90px;
+}
+.foot-left li{
+    list-style: none;
+    float: left;
+    padding-left: 44px;
+    position: relative;
+    left: -97px;
+    top: 98px;
+}
+.foot-right{
+    float: right;
+    margin-right: 300px;
+    margin-top: -141px;
+}
+.foot-right span{
+    padding-left: 80px;
+    color: #666;
+    font-size: 14px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.foot-right li{
+    list-style: none;
+    float: left;
+    padding-left: 93px;
+    font-size: 13px;
+    color: #666;
+
+}
+.foot-right ul{
+    margin-left: -58px;
+}
+hr{
+    width: 70%;
+    margin-top: 58px;
+    color: #ccc;
+    opacity: 0.5;
+}
+.foot-bottom{
+    text-align: center;
+    font-size: 10px;
+    color: #666;
+}
